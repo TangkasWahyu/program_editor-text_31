@@ -118,7 +118,7 @@ int main()
 				strcpy(cek->huruf, kata2);
 				break;
 			case 5:
-				cek = kepala;
+				cek=kepala;
 				if(n==0)
 				{
 					system("cls");
@@ -126,7 +126,8 @@ int main()
 					system("pause");
 					main();
 				}
-				else if(n==1){
+				else if(n==1)
+				{
 					kepala=NULL;
 					n--;
 				}
